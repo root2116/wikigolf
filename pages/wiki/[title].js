@@ -2,7 +2,7 @@
 import { useRouter } from 'next/router'
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-import styles from '../../styles/page.module.css'
+
 
 const extractHtmlFromResponse = (data) => {
     const pages = data.query.pages;
@@ -41,7 +41,7 @@ const Wiki = () => {
     }, [title]);
 
     return (
-        <div className={styles.mwBodyContent}>
+        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
             <h1>{title}</h1>
             <div dangerouslySetInnerHTML={{ __html: content }}></div>
         </div>
