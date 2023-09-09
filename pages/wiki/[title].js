@@ -2,7 +2,7 @@
 import { useRouter } from 'next/router'
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-
+import styles from '../../styles/page.module.css'
 
 const extractHtmlFromResponse = (data) => {
     const pages = data.query.pages;
@@ -27,9 +27,11 @@ const Wiki = () => {
             // Wikipedia APIを叩く
             const fetchContent = async () => {
                 try {
-                    const response = await axios.get(`https://ja.wikipedia.org/w/api.php?origin=*&format=json&action=query&prop=revisions&titles=${title}&rvprop=content&rvparse`);
-                    const htmlContent = extractHtmlFromResponse(response.data);
-                    setContent(htmlContent);
+                    console.log(title);
+                    const response = await axios.get(`https://anpangames.com:3003/?title=${title}`);
+                    console.log(response);
+                    
+                    setContent(response.data);
                 } catch (error) {
                     console.error("Error fetching data:", error);
                 }
@@ -39,7 +41,7 @@ const Wiki = () => {
     }, [title]);
 
     return (
-        <div>
+        <div className={styles.mwBodyContent}>
             <h1>{title}</h1>
             <div dangerouslySetInnerHTML={{ __html: content }}></div>
         </div>
