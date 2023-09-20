@@ -1,18 +1,18 @@
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -99,7 +99,7 @@ ol.references {
 .mw-parser-output a[href *=".PDF?"].external,
 .mw-parser-output a[href *=".pdf#"].external,
 .mw-parser-output a[href *=".pdf?"].external {
-    background: url(//upload.wikimedia.org/wikipedia/commons/4/4d/Icon_pdf_file.png) no-repeat 100%;
+    /* background: url(//upload.wikimedia.org/wikipedia/commons/4/4d/Icon_pdf_file.png) no-repeat 100%; */
     padding: 8px 18px 8px 0
 }
 
@@ -191,7 +191,7 @@ span.mwe-math-mathml-inline {
     }
 
     .gallerybox .thumb img {
-        background: #fff url(//upload.wikimedia.org/wikipedia/commons/5/5d/Checker-16x16.png) repeat
+        /* background: #fff url(//upload.wikimedia.org/wikipedia/commons/5/5d/Checker-16x16.png) repeat */
     }
 
     .ns-0 .gallerybox .thumb img,
@@ -962,7 +962,7 @@ sup.reference:target {
 }
 
 #p-lang .uls-settings-trigger {
-    background: transparent url(/w/extensions/UniversalLanguageSelector/resources/images/cog-sprite.svg?cca73) no-repeat top;
+    /* background: transparent url(/w/extensions/UniversalLanguageSelector/resources/images/cog-sprite.svg?cca73) no-repeat top; */
     border: 0;
     min-height: 16px;
     min-width: 16px;
@@ -1010,29 +1010,29 @@ sup.reference:target {
 .badge-goodarticle,
 .badge-goodlist,
 .badge-recommendedarticle {
-    list-style-image: url(/w/extensions/WikimediaBadges/resources/images/badge-silver-star.png?70a8c)
+    /* list-style-image: url(/w/extensions/WikimediaBadges/resources/images/badge-silver-star.png?70a8c) */
 }
 
 .badge-featuredarticle,
 .badge-featuredlist,
 .badge-featuredportal {
-    list-style-image: url(/w/extensions/WikimediaBadges/resources/images/badge-golden-star.png?ed948)
+    /* list-style-image: url(/w/extensions/WikimediaBadges/resources/images/badge-golden-star.png?ed948) */
 }
 
 .badge-problematic {
-    list-style-image: url(/w/extensions/WikimediaBadges/resources/images/badge-problematic.png?f3177)
+    /* list-style-image: url(/w/extensions/WikimediaBadges/resources/images/badge-problematic.png?f3177) */
 }
 
 .badge-proofread {
-    list-style-image: url(/w/extensions/WikimediaBadges/resources/images/badge-proofread.png?e81f9)
+    /* list-style-image: url(/w/extensions/WikimediaBadges/resources/images/badge-proofread.png?e81f9) */
 }
 
 .badge-validated {
-    list-style-image: url(/w/extensions/WikimediaBadges/resources/images/badge-validated.png?6232c)
+    /* list-style-image: url(/w/extensions/WikimediaBadges/resources/images/badge-validated.png?6232c) */
 }
 
 .badge-digitaldocument {
-    list-style-image: url(/w/extensions/WikimediaBadges/resources/images/badge-digitaldocument.png?d1c50)
+    /* list-style-image: url(/w/extensions/WikimediaBadges/resources/images/badge-digitaldocument.png?d1c50) */
 }
 
 .client-js .mw-collapsible-toggle-li,
@@ -1424,7 +1424,7 @@ legend {
 }
 
 .firstHeading:before {
-    content: url(/static/images/mobile/copyright/wikipedia-wordmark-en.svg);
+    /* content: url(/static/images/mobile/copyright/wikipedia-wordmark-en.svg); */
     display: block;
     height: 18px;
     left: -9999px;
@@ -1552,7 +1552,7 @@ div.thumbinner {
     }
 
     ul {
-        list-style-image: url(/w/skins/Vector/resources/common/images/bullet-icon.svg?d4515)
+        /* list-style-image: url(/w/skins/Vector/resources/common/images/bullet-icon.svg?d4515) */
     }
 
     .mw-code,
@@ -1671,7 +1671,7 @@ div.thumbinner {
     }
 
     .mw-parser-output a.external {
-        background-image: url(/w/skins/Vector/resources/common/images/external-link-ltr-icon.svg?48e54);
+        /* background-image: url(/w/skins/Vector/resources/common/images/external-link-ltr-icon.svg?48e54); */
         background-position: 100%;
         background-repeat: no-repeat;
         padding-right: 13px
@@ -1730,30 +1730,30 @@ div.thumbinner {
     }
 
     .vector-menu-tabs #ca-unwatch.icon a:before {
-        background-image: linear-gradient(transparent, transparent), url(/w/skins/Vector/resources/common/images/unwatch-icon.svg?4152f)
+        /* background-image: linear-gradient(transparent, transparent), url(/w/skins/Vector/resources/common/images/unwatch-icon.svg?4152f) */
     }
 
     .vector-menu-tabs #ca-unwatch.mw-watchlink-temp.icon a:before {
-        background-image: linear-gradient(transparent, transparent), url(/w/skins/Vector/resources/common/images/unwatch-temp-icon.svg?195f5)
+        /* background-image: linear-gradient(transparent, transparent), url(/w/skins/Vector/resources/common/images/unwatch-temp-icon.svg?195f5) */
     }
 
     .vector-menu-tabs #ca-watch.icon a:before {
-        background-image: linear-gradient(transparent, transparent), url(/w/skins/Vector/resources/common/images/watch-icon.svg?6ab6f)
+        /* background-image: linear-gradient(transparent, transparent), url(/w/skins/Vector/resources/common/images/watch-icon.svg?6ab6f) */
     }
 
     .vector-menu-tabs #ca-unwatch.icon a:focus:before,
     .vector-menu-tabs #ca-unwatch.icon a:hover:before {
-        background-image: linear-gradient(transparent, transparent), url(/w/skins/Vector/resources/common/images/unwatch-icon-hl.svg?a4731)
+        /* background-image: linear-gradient(transparent, transparent), url(/w/skins/Vector/resources/common/images/unwatch-icon-hl.svg?a4731) */
     }
 
     .vector-menu-tabs #ca-unwatch.mw-watchlink-temp.icon a:focus:before,
     .vector-menu-tabs #ca-unwatch.mw-watchlink-temp.icon a:hover:before {
-        background-image: linear-gradient(transparent, transparent), url(/w/skins/Vector/resources/common/images/unwatch-temp-icon-hl.svg?f3db6)
+        /* background-image: linear-gradient(transparent, transparent), url(/w/skins/Vector/resources/common/images/unwatch-temp-icon-hl.svg?f3db6) */
     }
 
     .vector-menu-tabs #ca-watch.icon a:focus:before,
     .vector-menu-tabs #ca-watch.icon a:hover:before {
-        background-image: linear-gradient(transparent, transparent), url(/w/skins/Vector/resources/common/images/watch-icon-hl.svg?9bf90)
+        /* background-image: linear-gradient(transparent, transparent), url(/w/skins/Vector/resources/common/images/watch-icon-hl.svg?9bf90) */
     }
 
     .vector-menu-tabs #ca-unwatch.icon .loading:before,
@@ -1783,7 +1783,7 @@ div.thumbinner {
 
     .vector-menu-dropdown .vector-menu-heading:after {
         content: "";
-        background-image: url(/w/skins/Vector/resources/common/images/arrow-down.svg?9426f);
+        /* background-image: url(/w/skins/Vector/resources/common/images/arrow-down.svg?9426f); */
         background-position: 100% 50%;
         background-repeat: no-repeat;
         position: absolute;
@@ -1896,7 +1896,7 @@ div.thumbinner {
 
     .vector-menu-portal .vector-menu-heading {
         display: block;
-        background-image: url(/w/skins/Vector/resources/common/images/portal-separator.png?4ab04);
+        /* background-image: url(/w/skins/Vector/resources/common/images/portal-separator.png?4ab04); */
         background-image: linear-gradient(90deg, hsla(213, 9%, 80%, 0) 0, #c8ccd1 33%, #c8ccd1 66%, hsla(213, 9%, 80%, 0));
         background-position: bottom;
         background-repeat: no-repeat;
@@ -2004,7 +2004,7 @@ div.thumbinner {
     }
 
     .searchButton[name=go] {
-        background: no-repeat 50%/1.23076923em url(/w/skins/Vector/resources/common/images/search.svg?bbf78);
+        /* background: no-repeat 50%/1.23076923em url(/w/skins/Vector/resources/common/images/search.svg?bbf78); */
         opacity: .67
     }
 
@@ -2466,7 +2466,7 @@ div.thumbinner {
 
     .vector-menu-tabs li,
     .vector-menu-tabs-legacy li {
-        background-image: url(/w/skins/Vector/resources/skins.vector.styles.legacy/images/tab-normal-fade.png?1cc52);
+        /* background-image: url(/w/skins/Vector/resources/skins.vector.styles.legacy/images/tab-normal-fade.png?1cc52); */
         background-image: linear-gradient(0deg, #77c1f6 0, #e8f2f8 1px, #fff);
         background-position: 0 100%;
         background-repeat: repeat-x;
@@ -2524,7 +2524,7 @@ div.thumbinner {
     #mw-head .vector-menu-dropdown .vector-menu-heading,
     .vector-menu-tabs,
     .vector-menu-tabs a {
-        background-image: url(/w/skins/Vector/resources/skins.vector.styles.legacy/images/tab-separator.png?09d4b);
+        /* background-image: url(/w/skins/Vector/resources/skins.vector.styles.legacy/images/tab-separator.png?09d4b); */
         background-image: linear-gradient(180deg, rgba(167, 215, 249, 0) 0, #a7d7f9);
         background-repeat: no-repeat;
         background-size: 1px 100%
@@ -2566,7 +2566,7 @@ div.thumbinner {
     .vector-user-menu-legacy #pt-tmpuserpage,
     .vector-user-menu-legacy #pt-userpage a {
         background-position: left .33333333em;
-        background-image: url(/w/skins/Vector/resources/skins.vector.styles.legacy/images/user-avatar.svg?b7f58);
+        /* background-image: url(/w/skins/Vector/resources/skins.vector.styles.legacy/images/user-avatar.svg?b7f58); */
         background-repeat: no-repeat;
         background-size: 1.16666667em 1.16666667em;
         padding-top: .5em;
@@ -2665,7 +2665,7 @@ div.thumbinner {
 }
 
 .mw-wiki-logo {
-    background-image: url(/static/images/project-logos/enwiki.png)
+    /* background-image: url(/static/images/project-logos/enwiki.png) */
 }
 
 @media print {
@@ -2915,7 +2915,7 @@ div.thumbinner {
         overflow: hidden;
         width: 15px;
         height: 11px;
-        background-image: url(/w/resources/src/mediawiki.skinning/images/magnify-clip-ltr.svg?8330e);
+        /* background-image: url(/w/resources/src/mediawiki.skinning/images/magnify-clip-ltr.svg?8330e); */
         -webkit-user-select: none;
         -moz-user-select: none;
         user-select: none
@@ -2936,7 +2936,7 @@ div.thumbinner {
     }
 
     .mw-content-ltr .magnify a {
-        background-image: url(/w/resources/src/mediawiki.skinning/images/magnify-clip-ltr.svg?8330e)
+        /* background-image: url(/w/resources/src/mediawiki.skinning/images/magnify-clip-ltr.svg?8330e) */
     }
 
     .mw-content-rtl .magnify {
@@ -3194,6 +3194,10 @@ div.thumbinner {
         text-decoration: underline
     }
 
+    a.external {
+        text-decoration: none
+    }
+
     a:lang(ar),
     a:lang(kk-arab),
     a:lang(mzn),
@@ -3234,6 +3238,10 @@ div.thumbinner {
     h2 {
         margin-bottom: .6em;
         border-bottom: 1px solid #a2a9b1
+    }
+
+    h2.external {
+        border-bottom: 0
     }
 
     h3,
@@ -3763,7 +3771,7 @@ div.thumbinner {
 (min-resolution: 1.5dppx),
 (min-resolution: 144dpi) {
     .mw-wiki-logo {
-        background-image: url(/static/images/project-logos/enwiki-1.5x.png);
+        /* background-image: url(/static/images/project-logos/enwiki-1.5x.png); */
         background-size: 135px auto
     }
 }
@@ -3772,7 +3780,7 @@ div.thumbinner {
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .mw-wiki-logo {
-        background-image: url(/static/images/project-logos/enwiki-2x.png);
+        /* background-image: url(/static/images/project-logos/enwiki-2x.png); */
         background-size: 135px auto
     }
 }
@@ -3788,7 +3796,7 @@ div.thumbinner {
 
 .wb-langlinks-link>a:before {
     content: "";
-    background-image: url(/w/extensions/Wikibase/client/resources/images/edit.svg?34bc5);
+    /* background-image: url(/w/extensions/Wikibase/client/resources/images/edit.svg?34bc5); */
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: 10px 10px;
@@ -4147,4 +4155,21 @@ button.icon {
     width: 200px;
     overflow: hidden;
     overflow-wrap: break-word
+}
+
+
+
+
+.title {
+    font-weight: 900;
+    font-size: 150%;
+    line-height: 100%;
+    letter-spacing: .01em;
+    text-align: center;
+    left: 0;
+    right: 0;
+    pointer-events: none;
+    border-bottom: none;
+    margin-bottom: 0;
+    padding: 0;
 }
